@@ -143,5 +143,34 @@ fish.reverse()
 reptiles.reverse()
 amphibians.reverse()
 insect.reverse()
+
+print("Mammals:")
+for animal in mammals:
+    print(animal)
+
+print("Birds:")
+for animal in birds:
+    print(animal)
+
+print("Fish:")
+for animal in fish:
+    print(animal)
+
+print("Mammals:")
+for animal in reptiles:
+    print(animal)
+
+print("Amphibians:")
+for animal in amphibians:
+    print(animal)
+
+print("Insect:")
 for animal in insect:
     print(animal)
+
+f = open("animals-eng.txt", "r")
+for line in f:
+    if (line.strip() not in mammals and line.strip() not in birds and line.strip() not in fish
+    and line.strip() not in reptiles and line.strip() not in amphibians and line.strip() not in insect):
+        print(line.strip(), " does not exist")
+f.close()
