@@ -172,5 +172,5 @@ f = open("animals-eng.txt", "r")
 for line in f:
     if (line.strip() not in mammals and line.strip() not in birds and line.strip() not in fish
     and line.strip() not in reptiles and line.strip() not in amphibians and line.strip() not in insect):
-        print(line.strip(), " does not exist")
+        print(line.strip(), "does not exist")
 f.close()
