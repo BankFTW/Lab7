@@ -33,7 +33,6 @@ Elephant
 Elephant seal 
 Elk
 Ferret
-Fish 
 Fox 
 Gaur
 Gazelle
