@@ -1,0 +1,7 @@
+Hornet
+Locust
+Louse
+Mosquito
+Stinkbug
+Termite
+Wasp
